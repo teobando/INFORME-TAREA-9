@@ -20,9 +20,9 @@ Entender de forma precisa los conceptos básicos en lo que se refiere a circuito
 
 *1.2 Objetivos Específicos*
 
-1. Comprender la teoría de circuitos RLC y filtros pasivos para  mantener una idea clara de lo que trata. 
-2. Resumir mediante mapas conceptuales todos conceptos que se abordan a lo que se refiere a circuitos RLC y filtros Pasivos
-3. Aplicar la teoría en los ejercicios Propuestos.
+- Comprender la teoría de circuitos RLC y filtros pasivos para  mantener una idea clara de lo que trata. 
+- Resumir mediante mapas conceptuales todos conceptos que se abordan a lo que se refiere a circuitos RLC y filtros Pasivos
+- Aplicar la teoría en los ejercicios Propuestos.
 
 **2.MARCO TEORICO(RESUMEN)**
 
@@ -456,9 +456,9 @@ https://www.youtube.com/watch?v=aglMqGVc1-w
 
 **4.CONCLUSIONES**
 
-1. Comprender la teoría es la base para aplicar los conceptos en la resolución de problemas, especialmente en el comportamiento de circuitos RLC y filtros Pasivos
-2. Los conceptos circuitos circuitos RLC y filtros pasivos  ayudan a comprender su funcionamiento y el rol que cumplen en un circuito eléctrico cerrado. 
-3. La resolución de todos los problemas propuestos nos permitió entender de forma clara los funcionamientos circuitos circuitos RLC y filtros Pasivos e identificar la diferencia entre ellos  
+- Comprender la teoría es la base para aplicar los conceptos en la resolución de problemas, especialmente en el comportamiento de circuitos RLC y filtros Pasivos
+- Los conceptos circuitos circuitos RLC y filtros pasivos  ayudan a comprender su funcionamiento y el rol que cumplen en un circuito eléctrico cerrado. 
+- La resolución de todos los problemas propuestos nos permitió entender de forma clara los funcionamientos circuitos circuitos RLC y filtros Pasivos e identificar la diferencia entre ellos  
 
 **5.BIBLIOGRAFÍA**
 
