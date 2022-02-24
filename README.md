@@ -18,9 +18,13 @@ Tito (12 ejercicios)
 
 ![image](https://user-images.githubusercontent.com/94098157/155449056-332a8ed0-52ff-4dd7-a07d-6c198bacdc57.png)
 
+![image](https://user-images.githubusercontent.com/94098157/155457969-656c3c54-a009-4f18-8914-e58baede5ff9.png)
+
 31.En la figura 17-67, ¿cuál es el ángulo de fase entre I2 y el voltaje de fuente?
 
 ![image](https://user-images.githubusercontent.com/94098157/155449145-70353ae2-866d-42da-9e50-98a5dd924acc.png)
+
+![image](https://user-images.githubusercontent.com/94098157/155459213-dfef4e29-1074-4b76-b4f4-a62c1ee18594.png)
 
 33.Determine la corriente a través de cada componente mostrado en la figura 17-68. Encuentre el voltaje entre las terminales de cada  componente.
 
@@ -36,9 +40,15 @@ Tito (12 ejercicios)
 
 39.En condición de resonancia, XL 2kΩ  y RW  25Ω en un circuito RLC en paralelo. La frecuencia resonante es de 5 kHz. Determine el ancho de banda.
 
+![image](https://user-images.githubusercontent.com/94098157/155462305-88878478-e8cb-430a-a5b1-9cd0a84b189d.png)
+
 41.En cierto circuito RLC, la potencia en condición de resonancia es de 2.75 W. ¿Cuál es la potencia a la frecuencia crítica baja?
 
+![image](https://user-images.githubusercontent.com/94098157/155463207-b6d2fa3f-971e-4508-83ac-b2536e6bfe73.png)
+
 43.Cierto circuito resonante en paralelo tiene un factor Q de 50 y un AB de 400 Hz. Si Q se duplica, ¿cuál es el ancho de banda a la misma fr?
+
+AB= 200 Hz
 
 ***CAPITULO N° 18***
 
