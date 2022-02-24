@@ -2,5 +2,10 @@
 
 ***CAPITULO N° 17***
 
-***CAPITULO N° 18***
+Martin (12 ejercicios)
 
+Tito (12 ejercicios)
+
+Jefferson ( 12 ejercicios)
+
+***CAPITULO N° 18***
