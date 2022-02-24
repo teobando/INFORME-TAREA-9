@@ -66,3 +66,55 @@ AB= 200 Hz
 
 
 Jefferson ( 12 ejercicios)
+
+5. Para el filtro de la figura 18-39, calcule el valor de C requerido para cada una de las siguientes frecuencias críticas: (a) 60 Hz 
+
+![image](https://user-images.githubusercontent.com/84757114/155545498-fa8ab57f-846b-45aa-9e4c-3bed26963160.png)
+
+7. Trace una curva de Bode para cada una de las partes del problema 5.
+
+![image](https://user-images.githubusercontent.com/84757114/155545600-f82eeb24-9054-4328-adab-d07263132ebd.png)
+ 
+9. El voltaje de entrada a un filtro RC pasabajas es de 8 V rms. Determine el voltaje de salida a los siguientes niveles de dB: 
+
+![image](https://user-images.githubusercontent.com/84757114/155545654-efcf7af0-eba5-4c30-86c5-f32608aa8820.png)
+
+11. En un filtro pasaaltas, XC 500 Æ y R 2.2 kÆ. ¿Cuál es el voltaje de salida (Vsal) cuando Vent 10 V rms? 
+
+![image](https://user-images.githubusercontent.com/84757114/155545715-1c78d2bc-1356-4964-ba96-eac93b35830e.png)
+
+13. Determine el voltaje de salida de cada filtro mostrado en la figura 18-41 a la frecuencia especificada cuando Vent 10 V 
+
+![image](https://user-images.githubusercontent.com/84757114/155545808-87ae85e4-3be3-4018-84bf-efd607232549.png)
+
+15. Trace la curva de Bode para cada filtro mostrado en la figura 18-41.
+
+![image](https://user-images.githubusercontent.com/84757114/155545932-ea13d84b-4e53-4fc7-97d0-08c0585c236a.png)
+
+17. Determine la frecuencia central para cada filtro de la figura 18-43.
+
+![image](https://user-images.githubusercontent.com/84757114/155546066-d561976f-411e-4def-8a79-35cb8199059d.png)
+
+19. ¿Cuáles son las frecuencias críticas alta y baja para cada filtro de la figura 18-43? Suponga que la respuesta es simétrica con respecto a f0.
+
+![image](https://user-images.githubusercontent.com/84757114/155546146-0d69d312-8ff7-4f00-abef-963fd20a19aa.png)
+
+21. Si la resistencia de devanado de las bobinas que aparecen en la figura 18-44 es de 4 Æ, ¿cuál es el voltaje de salida en condición de resonancia cuando Vent 120 V? 
+
+![image](https://user-images.githubusercontent.com/84757114/155546320-217c27c6-00d0-4656-9823-fb2735f2ca21.png)
+
+23. Diseñe un filtro pasabanda utilizando un circuito resonante paralelo que satisfaga las siguientes especificaciones: AB 500 Hz; Q 40. 
+
+![image](https://user-images.githubusercontent.com/84757114/155546395-2daed2f2-0b57-4209-8ec5-2329a2b4f9c9.png)
+
+25. Para cada filtro de la figura 18-47, determine la frecuencia central de la banda de rechazo
+
+![image](https://user-images.githubusercontent.com/84757114/155546500-2eaa3178-8159-4612-86e2-13a0f51d112a.png)
+
+27. Determine los valores de L1 y L2 en la figura 18-48 para dejar pasar una señal con frecuencia de 1200 kHz y rechazar una señal con frecuencia de 456 kHz.
+
+![image](https://user-images.githubusercontent.com/84757114/155546912-75a76480-95cd-48d2-8bbe-3a1046e1790a.png)
+
+
+
+
