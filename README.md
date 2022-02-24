@@ -267,7 +267,178 @@ AB= 200 Hz
 
 ![image](https://user-images.githubusercontent.com/94098157/155452282-aab21dab-3cbf-4855-adb1-a97fe8926e48.png)
 
-Jefferson ( 12 ejercicios)
+Impedancia de circuitos RLC en serie 
+
+1. Cierto circuito RLC en serie tiene los siguientes valores: R = 10 ohm, C = 0.047 mF, y L = 5 mH. Determine la impedancia en forma polar. ¿Cuál es la reactancia neta? La frecuencia de la fuente es de 5 kHz.
+
+f = 5kHz
+R = 10ohm
+C = 0.047mF
+L = 5mH
+
+Z = raiz(R^2 + (Xtot)^2 ∠ (+/-) tan^-1 (Xtot/R)
+
+Xc = 1/2pifC
+
+XL = 2pifL
+
+Xc = 1/2pifC = 1/2pi(5000)(0.047*10^-6) = 667.25ohm
+
+XL = 2pi(5000)(0.005) = 157.08ohm
+
+Xtot = |XL – Xc| = |157.08 – 667.25| = 520.17 ohm
+
+Z = raiz(10^2 + (520.17)^2 ∠  tan^-1 (520.17/10) = 520.3 ∠ -88.9 capacitivo
+
+
+3. Si en la figura la frecuencia del voltaje de fuente se duplica a partir del valor que producen las reactancias indicadas, ¿cómo cambia la magnitud de la impedancia?
+
+![image](https://user-images.githubusercontent.com/94182617/155566420-04991891-5907-4175-a944-4b40b49dad67.png)
+
+Xtot = |XL – Xc| = |80 – 35| = 45
+
+Z = raiz(47^2 + (45)^2 ∠  tan^-1 (45/47) = 65.07 ∠ 43.75 
+
+Se duplica:
+
+XL = 80 * 2 = 160ohm
+
+Xc = 35 /2 = 17.5 ohm
+
+Xtot = |160 – 17.5 | = 142.5ohm
+
+Z = raiz(47^2 + (142.5)^2 ∠  tan^-1 (142.5/47) = 150 ∠ 41.74
+
+La impedancia se incrementa a 150 ohm
+
+Análisis de circuitos RLC en serie
+
+5. Para el circuito de la figura 17-59, determine Itot, VR, VL y VC en forma polar.
+
+![image](https://user-images.githubusercontent.com/94182617/155566554-d1496939-16c8-4871-bfb0-b04ac62f38f1.png)
+
+Z = R + jXL - jXC = 47 + j80 – j35 = 47 + j45 
+
+Z = raiz(47^2 + (45)^2 ∠ tan^-1 (45/47) = 65.07 ∠ 43.75
+
+I = Vs/Z = (4 ∠ 0)/( 65.07 ∠ 43.75) = 0.0615 ∠ -43.75 = 61.5 ∠ -43.75 mA
+
+Vr = I * R = (0.0615 ∠ -43.75) * (47 ∠ 0) = 2.89 ∠ -43.75 V
+
+VL = I * XL = (0.0615 ∠ -43.75) * (80 ∠ 90) = 4.92 ∠ 46.25 V
+
+Vc = I * Xc = (0.0615 ∠ -43.75) * (35 ∠ -90) = 2.15∠ -134 V
+
+7. Analice el circuito de la figura para determinar lo siguiente (f = 25 kHz): 
+
+(a)Itot	 (b)Preal	 (c)Pr	 (d) Pa
+
+![image](https://user-images.githubusercontent.com/94182617/155566650-3baa75bb-7195-4aea-b696-405e5bad609a.png)
+
+Rtot = 1/(1/220 + 1/390) = 140.65 ohm
+
+Ltot = 0.5 + 1 = 1.5mH = 0.0015 H
+
+Ctot = 1*10^-8 + 1.8*10^-9 = 11.8*10^-9 F
+
+Xc = 1/2pi(25*10^3)(11.8*10^-9) = 539.5 ohm
+
+XL = 2piL(25*10^3) (0.0015) = 235.62 ohm
+
+Xtot = |235.62 – 539.62| = 304
+
+Z = raiz(140.65^2 + (304)^2 ∠ -tan^-1 (304/140.65) = 334.96 ∠ -65.17
+
+(a) Itot = Vs/Z = (12 ∠ 0)/(334.96 ∠ -65.17) = 35.8∠65.17 mA
+
+(b) Pr = I^2 * R = 35.8^2 * 140.65 = 181 mW
+
+(c) Pr = I^2 * Xc = 35.8^2 * 539.5 = 390 mVAR
+
+(d) Pa = I^2 * Z = 35.8^2 * 334.96 = 430 mVA
+
+
+Resonancia en serie
+
+9. Para el circuito de la figura, ¿cuál es el voltaje a través de R en condición de resonancia?
+
+![image](https://user-images.githubusercontent.com/94182617/155566751-a1e44117-f49b-44d2-8088-0b7da24ba91a.png)
+
+Al estar en frecuencia resonante Xc y XL se anulan por lo que la corriente será solo definida por R y Vs, entonces R tendrá el mismo voltaje que la fuente de 12V.
+
+11. Cierto circuito resonante dispuesto en serie tiene una corriente mínima de 50 mA y un VL de 100 V. El voltaje aplicado es de 10 V. ¿Cuál es el valor de Z? ¿Cuáles los valores de XL y XC?
+
+Xc = XL = 100V/0.05A = 2kohm
+
+R = V/I = 10/0.05 = 200ohm
+
+Z = R + jXL – jXc = 200ohm + 0 = 200ohm
+
+13. Para la figura, ¿cuál es el valor de la corriente en los puntos de potencia media?
+
+![image](https://user-images.githubusercontent.com/94182617/155566930-c6f7f889-2e02-4e6f-87d3-4eea26472bc3.png)
+
+XL = Xc 
+
+I = V/R = 7.07/10 = 0.707A
+
+En los puntos de potencia media la corriente:
+
+I = 0.707 * 0.707 = 500mA
+
+15. Diseñe un circuito en el cual las siguientes frecuencias resonantes en serie se puedan seleccionar con un conmutador: 
+
+(a) 500 kHz 	(b) 1000 kHz 	(c) 1500 kHz 	(d) 2000 kHz
+
+![image](https://user-images.githubusercontent.com/94182617/155567001-e4ec7cd5-fd5d-4c0f-b297-34442c16d30c.png)
+
+Impedancia de circuitos RLC en paralelo
+
+17. ¿Es capacitivo o inductivo el circuito de la figura? Explique su respuesta.
+
+![image](https://user-images.githubusercontent.com/94182617/155567065-eb7177ae-a7c9-4676-bcdc-7b0fe60d67d0.png)
+
+Xc = 1/2pifC = 1/2pi(12*10^3)(0.022*10^-6) = 602.86
+
+XL = 2pifL = 2pi(12*10^3)(15*10^-3) = 1130.97
+
+1/Z = 1/R∠0° + 1/XL∠90° + 1/XC∠ -90° = 1/100∠0° + 1/1130.97∠90° + 1/602.86∠ -90°
+
+1/Z = 0.01 ∠ 0 S + 0.00088 ∠ 90 S + 0.0016 ∠ -90
+
+Z = 1/(0.01 -j0.00088 + j0.0016) = 1/(0.01 + j0.00072)
+
+Z = 1/(raíz(0.01^2 + 0.00072^2) ∠ tan^-1(0.00072/0.01) = 1/(0.01 ∠ 4.12)
+
+Z = 100 ∠ -4.12 indica un circuito levemente capacitivo
+
+Análisis de circuitos RLC en paralelo
+
+19. Para el circuito de la figura, determine todas las corrientes y los voltajes en forma polar.
+
+![image](https://user-images.githubusercontent.com/94182617/155567161-ff12d52d-aaa3-4436-bd1c-8056d96f5709.png)
+
+Xc = 1/2pifC = 1/2pi(12*10^3)(0.022*10^-6) = 602.86
+
+XL = 2pifL = 2pi(12*10^3)(15*10^-3) = 1130.97
+
+IR = Vs/R = (5 ∠ 0)/(100 ∠ 0) = 50 ∠ 0 mA
+
+Ic = Vs/Xc = (5 ∠ 0)/(602.86 ∠ -90) = 8.3 ∠ 90 mA
+
+IL = Vs/XL = (5 ∠ 0)/(1130.97 ∠ 90) = 4.42 ∠ -90 mA
+
+Itot = IR + Ic + IL = (50 ∠ 0) + (8.3 ∠ 90) + (4.42 ∠ -90) = 50 +j8.3 – j4.42 = 50mA + j3.87mA
+
+Itot = raiz(IR^2 + (Ic - IL)^2) ∠ tan^-1(ICL/IR) = raiz(50^2 + 3.87 ^2) ∠ tan^-1(3.87/50) = 
+
+Itot = 50.15 ∠ 4.43 mA
+
+VR = VL = VC = 5 ∠ 0° V
+
+21. Cambie la frecuencia a 100 kHz en la figura y repita el problema 19.
+
+![image](https://user-images.githubusercontent.com/94182617/155567247-9cb2cec5-f849-45a1-bd4c-e6d3abc69003.png)
 
 **3.VIDEO**
 
