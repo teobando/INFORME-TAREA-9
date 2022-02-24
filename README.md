@@ -16,19 +16,9 @@
 
 *1.1 Objetivo General:* 
 
-Entender de forma precisa los conceptos básicos en lo que se refiere a circuitos RLC y Resonancia además filtros Pasivos  mediante una lectura profunda del texto guía para aplicar en los ejercicios propuestos de cada capítulo.
-
-*1.2 Objetivos Específicos*
-
-- Comprender la teoría de circuitos RLC y filtros pasivos para  mantener una idea clara de lo que trata. 
-- Resumir mediante mapas conceptuales todos conceptos que se abordan a lo que se refiere a circuitos RLC y filtros Pasivos
-- Aplicar la teoría en los ejercicios Propuestos.
+*1.2 Objetivos Especificos*
 
 **2.MARCO TEORICO(RESUMEN)**
-
-![image](https://user-images.githubusercontent.com/94098157/155568337-dc53a0ea-2052-418e-8271-d5c2fd545059.png)
-
-![image](https://user-images.githubusercontent.com/94098157/155568371-c7af110a-9736-4f94-b0d2-f6b9c31c197f.png)
 
 **3. EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS**
 
@@ -206,6 +196,38 @@ VR = VL = VC = 5 ∠ 0° V
 21. Cambie la frecuencia a 100 kHz en la figura y repita el problema 19.
 
 ![image](https://user-images.githubusercontent.com/94182617/155567247-9cb2cec5-f849-45a1-bd4c-e6d3abc69003.png)
+
+f = 100kHz
+
+Xc = 1/2pifC = 1/2pi(100*10^3)(0.022*10^-6) = 72.34
+
+XL = 2pifL = 2pi(100*10^3)(15*10^-3) = 9424.78
+
+IR = Vs/R = (5 ∠ 0)/(100 ∠ 0) = 50 ∠ 0 mA
+
+Ic = Vs/Xc = (5 ∠ 0)/(72.34 ∠ -90) = 69.1 ∠ 90 uA
+
+IL = Vs/XL = (5 ∠ 0)/(9424.78 ∠ 90) = 531 ∠ -90 uA
+
+Itot = IR + Ic + IL = (50 ∠ 0) + (69.1 ∠ 90) + (531 ∠ -90) = 50 +j69.1 – j531 = 50mA – j461.9mA
+
+Itot = raiz(IR^2 + (Ic - IL)^2) ∠ tan^-1(ICL/IR) = raiz(50^2 + 461.9 ^2) ∠ tan^-1(-461.9/50) = 
+
+Itot = 50 ∠ 83 mA
+
+Resonancia en paralelo
+
+23. Determine Z en condición de resonancia y fr para el circuito tanque de la figura.
+
+![image](https://user-images.githubusercontent.com/94182617/155571283-1fb4e3cc-3bf7-4877-995f-235ef260cf26.png)
+
+fr = 1/2pi*raíz(L*C)
+
+fr = 1/2pi*raíz(50*10^-3 * 47*10^-12)
+
+fr = 104 kHz
+
+
 Tito (12 ejercicios)
 
 25.Determine Preal, Pr y Pa en el circuito de la figura 17-64 en condición de resonancia.
@@ -452,13 +474,7 @@ VR = VL = VC = 5 ∠ 0° V
 
 **3.VIDEO**
 
-https://www.youtube.com/watch?v=aglMqGVc1-w
-
 **4.CONCLUSIONES**
-
-- Comprender la teoría es la base para aplicar los conceptos en la resolución de problemas, especialmente en el comportamiento de circuitos RLC y filtros Pasivos
-- Los conceptos circuitos circuitos RLC y filtros pasivos  ayudan a comprender su funcionamiento y el rol que cumplen en un circuito eléctrico cerrado. 
-- La resolución de todos los problemas propuestos nos permitió entender de forma clara los funcionamientos circuitos circuitos RLC y filtros Pasivos e identificar la diferencia entre ellos  
 
 **5.BIBLIOGRAFÍA**
 
