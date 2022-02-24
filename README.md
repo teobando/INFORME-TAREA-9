@@ -16,9 +16,19 @@
 
 *1.1 Objetivo General:* 
 
-*1.2 Objetivos Especificos*
+Entender de forma precisa los conceptos básicos en lo que se refiere a circuitos RLC y Resonancia además filtros Pasivos  mediante una lectura profunda del texto guía para aplicar en los ejercicios propuestos de cada capítulo.
+
+*1.2 Objetivos Específicos*
+
+1. Comprender la teoría de circuitos RLC y filtros pasivos para  mantener una idea clara de lo que trata. 
+2. Resumir mediante mapas conceptuales todos conceptos que se abordan a lo que se refiere a circuitos RLC y filtros Pasivos
+3. Aplicar la teoría en los ejercicios Propuestos.
 
 **2.MARCO TEORICO(RESUMEN)**
+
+![image](https://user-images.githubusercontent.com/94098157/155568337-dc53a0ea-2052-418e-8271-d5c2fd545059.png)
+
+![image](https://user-images.githubusercontent.com/94098157/155568371-c7af110a-9736-4f94-b0d2-f6b9c31c197f.png)
 
 **3. EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS**
 
@@ -442,7 +452,13 @@ VR = VL = VC = 5 ∠ 0° V
 
 **3.VIDEO**
 
+https://www.youtube.com/watch?v=aglMqGVc1-w
+
 **4.CONCLUSIONES**
+
+1. Comprender la teoría es la base para aplicar los conceptos en la resolución de problemas, especialmente en el comportamiento de circuitos RLC y filtros Pasivos
+2. Los conceptos circuitos circuitos RLC y filtros pasivos  ayudan a comprender su funcionamiento y el rol que cumplen en un circuito eléctrico cerrado. 
+3. La resolución de todos los problemas propuestos nos permitió entender de forma clara los funcionamientos circuitos circuitos RLC y filtros Pasivos e identificar la diferencia entre ellos  
 
 **5.BIBLIOGRAFÍA**
 
