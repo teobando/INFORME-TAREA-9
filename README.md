@@ -228,7 +228,6 @@ fr = 1/2pi*raíz(50*10^-3 * 47*10^-12)
 fr = 104 kHz
 
 
-
 25.Determine Preal, Pr y Pa en el circuito de la figura 17-64 en condición de resonancia.
 
 ![image](https://user-images.githubusercontent.com/94098157/155448806-92b89d7e-01d3-410a-a291-297d78fb3dfa.png)
